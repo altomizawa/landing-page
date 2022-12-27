@@ -1,0 +1,175 @@
+body{
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*div{
+    outline-style: auto;
+    outline-width: 1px;
+    outline-color: black;
+}*/
+
+h2{
+    font-size: 2rem;
+}
+
+ul{ 
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+/*button{
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-style: 0;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 1em;
+    max-height: 3rem;
+}
+*/    
+
+.button-no-outline{
+    border-style: none;
+    padding: 10px;
+    background-color: #3882f6;
+    color: white;
+    width: 150px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.button-outline{
+    border-style: solid;
+    padding: 10px;
+    background-color: #3882f6;
+    color: white;
+    width: 150px;
+    border-radius: 8px;
+    font-weight: bold;
+    border-color: white;
+    border-width: 1px;
+}
+
+.hero-section{
+    background-color: #1F2937;
+    color: white;
+    padding: 0 10%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10vh;
+    flex: 1;
+}
+.hero-image-inside{
+    width: 600px;
+    height: auto;
+    }
+.hero-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header.hero-main{
+    max-width: 800px;
+}
+
+
+.hero-text{ 
+    text-align: left;
+    width: 30vw;
+    min-width: 400px;
+}
+
+
+.cards-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 30vh;
+    padding: 1rem;
+}
+
+.card-row{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+}
+
+.square{
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882f6;
+    border-width: 1px;
+}
+    
+.quote-section{
+   background-color: #e5e7eb ;
+   font-size: 2rem;
+   font-style: italic;
+   font-weight:100;
+   padding: 7% 20%;
+}
+
+.quote-author{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-section{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blue-box{
+    background-color: #3882f6;
+    padding: 0 2rem;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 60%;
+    height: 15vh;
+}
+
+.cta-text{
+    font-size: 16px;
+    text-align: left;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.cta-text-bold{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+
+
+
