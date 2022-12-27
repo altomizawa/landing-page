@@ -1,8 +1,16 @@
 body{
     align-items: center;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Tahoma, 'Trebuchet MS', sans-serif;
+    
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*div{
     outline-style: auto;
     outline-width: 1px;
@@ -40,6 +48,7 @@ ul{
     width: 150px;
     border-radius: 8px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .button-outline{
     border-style: solid;
@@ -64,10 +73,7 @@ ul{
     gap: 10vh;
     flex: 1;
 }
-.hero-image-inside{
-    width: 600px;
-    height: auto;
-    }
+
 .hero-main{
     display: flex;
     justify-content: space-between;
@@ -75,16 +81,18 @@ ul{
     align-items: center;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .header.hero-main{
     max-width: 800px;
 }
 
+.hero-image{
+    background-image: url(https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+}
 
 .hero-text{ 
     text-align: left;
@@ -97,27 +105,49 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 30vh;
-    padding: 1rem;
+    min-height: 40vh;
+    padding: 4rem;
 }
 
 .card-row{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 .card{
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.square{
-    border-style: solid;
+.card-image{
+    width: 150px;
+    height: 150px;
     border-radius: 8px;
-    border-color: #3882f6;
-    border-width: 1px;
 }
-    
+
+.card-image.one{
+    background-image: url(https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    background-size: cover;
+}
+
+.card-image.two{
+    background-image: url(https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    background-size: cover;
+}
+
+.card-image.three{
+    background-image: url(https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    background-size: cover;
+}
+
+.card-image.four{
+    background-image: url(https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    background-size: cover;
+}
+
 .quote-section{
    background-color: #e5e7eb ;
    font-size: 2rem;
@@ -158,11 +188,6 @@ ul{
     text-align: left;
 }
 
-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 8px;
-}
 
 .cta-text-bold{
     font-weight: bold;
